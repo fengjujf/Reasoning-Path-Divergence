@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+tqdm
+pyarrow
+huggingface_hub
+tiktoken
+transformers
+accelerate
+sentence-transformers
+einops
