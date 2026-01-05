@@ -1,5 +1,11 @@
 # Reasoning Path Divergence (RPD)
 
+[**📖 ArXiv Paper**](https://arxiv.org/abs/2510.26122)
+
+<p align="center">
+  <img src="figures/pipeline.png" alt="RPD Pipeline Diagram" width="100%" />
+</p>
+
 Official code for the paper: **"Reasoning Path Divergence: A New Metric and Curation Strategy to Unlock LLM Diverse Thinking"**.
 
 This repository contains the data curation pipeline that selects high-quality, diversely reasoned problems and answers.
@@ -66,4 +72,18 @@ If you modify any parameters in **Step 2 (Length Filter)** or **Step 3 (Quality 
     └── processed/            # Intermediate and final outputs
 
 
+```
+---
+
+## 🖊️ Citation
+
+If you find this code or paper useful, please consider citing:
+
+```bibtex
+@article{ju2025reasoning,
+  title={Reasoning Path Divergence: A New Metric and Curation Strategy to Unlock LLM Diverse Thinking},
+  author={Ju, Feng and Qin, Zeyu and Min, Rui and He, Zhitao and Kong, Lingpeng and Fung, Yi R},
+  journal={arXiv preprint arXiv:2510.26122},
+  year={2025}
+}
 ```
